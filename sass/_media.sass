@@ -1,0 +1,60 @@
+/* Адаптив для сайта */
+
+@media (max-width: 1199px)
+  .block
+    &-service
+      img
+        width: 460px
+        height: 310px
+  .accordion
+    width: 460px
+  .acc-text
+    font-size: 11px
+
+@media (max-width: 992px)
+  .block
+    &-service
+      img
+        width: 570px
+        height: 380px
+  .accordion
+    width: 570px
+    margin: 20px 0 0 0
+  .acc-text
+    font-size: 15px
+
+@media (max-width: 920px)
+  .main_label
+    font-size: 40px
+    margin-top: 30px
+  .welcome
+    font-size: 90px
+    line-height: 100px
+
+@media (max-width: 767px)
+  .top-nav
+    &_btn
+      display: block
+
+    &_menu
+      flex-direction: column
+      display: none
+
+      &__active
+        display: flex
+        margin-bottom: 0
+
+      li
+        line-height: 2
+
+        a
+          &::after
+            display: none
+
+@media (max-width: 560px)
+  .main_label
+    margin-top: 20px
+  .welcome
+    font-size: 80px
+    line-height: 80px
+
