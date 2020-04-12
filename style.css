@@ -1,6 +1,5 @@
 @charset "UTF-8";
 /* Интегрируем переменные с цветами */
-/* Цвет фона всего сайта */
 @font-face {
   font-family: 'fontello';
   src: url("../fonts/fontello.eot?83822683");
@@ -148,9 +147,9 @@ html {
 }
 
 body {
-  background-color: #cccccc;
-  color: #999999;
-  font-family: "Roboto", sans-serif;
+  background-color: #cccccc !important;
+  color: #999999 !important;
+  font-family: "Roboto", sans-serif !important;
   margin: 0;
 }
 

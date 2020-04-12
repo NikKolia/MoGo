@@ -1,85 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="./favicon.ico">
+<?php
+/*
+Template Name: About
+*/
+?>
+<?php get_header(); ?>
 
-    <title>MoGo</title>
-
-    <!-- Bootstrap CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <!-- Fonts Google -->
-    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@400;700&family=Roboto:ital,wght@0,400;1,300&display=swap"
-          rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="css/main.css" rel="stylesheet">
-</head>
-
-<body>
-<div class="container">
-    <div class="top-nav">
-        <div class="row justify-content-between align-items-center">
-            <div class="col-md-auto">
-                <div class="logo">
-                    <p>MoGo</p>
-                </div>
-            </div><!-- /.col-md -->
-            <div class="col-md-auto">
-                <button class="top-nav_btn">
-                    <i class="icon-menu"></i>
-                </button>
-                <ul class="top-nav_menu">
-                    <li><a href="#">ABOUT</a></li>
-                    <li><a href="#">SERVICE</a></li>
-                    <li><a href="#">WORK</a></li>
-                    <li><a href="#">BLOG</a></li>
-                    <li><a href="#">CONTACT</a></li>
-                    <li><a href="#"><img src="img/cart.png" alt="cart image"></a></li>
-                    <li><a href="#"><img src="img/search.png" alt="search image"></a></li>
-                </ul>
-            </div><!-- /.col-md -->
-        </div><!-- /.row -->
-        <div class="row justify-content-center align-items-center">
-            <div class="col-md-auto">
-                <div class="main_label kaush">
-                    <p>Creative Template</p>
-                </div>
-            </div><!-- /.col-md -->
-        </div>
-        <div class="row justify-content-center align-items-center">
-            <div class="col-md-auto">
-                <div class="welcome center">
-                    <p>WELCOME<br/>TO MOGO</p>
-                    <p>
-                    <hr class="line"/>
-                    </p>
-                </div>
-                <div class="center"><a href="#" class="button">LEARN MORE</a></div>
-            </div><!-- /.col-md -->
-        </div><!-- /.row -->
-    </div><!-- /.top-nav -->
-
-    <!-- About us -->
-    <div class="row justify-content-center align-items-center block">
-        <div class="col-md-auto">
-            <div class="content">
-                <p class="kaush font24 dark center">What we do</p>
-                <h2 class="montser bold font30 dark center">Story about us</h2>
-                <p>
-                <hr class="lines"/>
-                </p>
-                <p class="aboutText center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                    tempor
-                    incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat.</p>
-            </div><!-- /.content -->
-        </div><!-- /.col-md -->
-    </div>
+<!-- About us -->
+<div class="row justify-content-center align-items-center block">
+    <div class="col-md-auto">
+        <div class="content">
+            <p class="kaush font24 dark center">What we do</p>
+            <h2 class="montser bold font30 dark center">Story about us</h2>
+            <p>
+            <hr class="lines"/>
+            </p>
+            <p class="aboutText center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                tempor
+                incididunt ut labore
+                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                aliquip ex ea commodo consequat.</p>
+        </div><!-- /.content -->
+    </div><!-- /.col-md -->
+</div>
 </div><!-- /.container -->
 <div class="d-flex flex-wrap justify-content-center aboutImg">
     <div class="aboutImg_high">
@@ -186,48 +128,4 @@
     </div><!-- /.row -->
 </div><!-- /.container -->
 
-<footer class="footer">
-    <div class="container">
-        <div class="col-md-auto footer-social-links">
-            <ul>
-                <li><p>Follow Us:</p></li>
-                <li><a href="#" class="icon-facebook"></a></li>
-                <li><a href="#" class="icon-twitter"></a></li>
-                <li><a href="#" class="icon-linkedin"></a></li>
-                <li><a href="#" class="icon-youtube-play"></a></li>
-                <li><a href="#" class="icon-pinterest"></a></li>
-                <li><a href="#" class="icon-instagram"></a></li>
-            </ul>
-        </div><!-- /.col-md -->
-        <div class="col-md-auto">
-
-        </div><!-- /.col-md -->
-        <div class="col-md-auto">
-
-        </div><!-- /.col-md -->
-        <hr/>
-        <div class="row justify-content-center align-items-center">
-            <div class="col-md-auto">
-                <p class="copyw">© 2016 MoGo free PSD template by <span class="copyw-span">Laaqiq</span></p>
-            </div><!-- /.col-md -->
-        </div>
-    </div><!-- /.container -->
-</footer>
-
-<!-- Bootstrap core JavaScript ================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<script src="js/jquery-3.3.1.slim.min.js"></script>
-<script src="js/bootstrap.bundle.min.js"></script>
-<script>
-    $(document).ready(function () {
-        var menuBtn = $('.top-nav_btn');
-        var menu = $('.top-nav_menu');
-
-        menuBtn.on('click', function (event) {
-            event.preventDefault();
-            menu.toggleClass('top-nav_menu__active');
-        });
-    });
-</script>
-</body>
-</html>
+<?php get_footer(); ?>
